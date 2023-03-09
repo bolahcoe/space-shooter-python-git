@@ -28,7 +28,7 @@ for i in range(2):
     alien_images.append(img)
 
 aliens = []
-for i in range(5):
+for i in range(10):
     alien1 = {'x': 50*i + 50 , 'y': 0}
     alien2 = {'x': 50*i + 50, 'y': 50}
     aliens.append(alien1)
@@ -151,7 +151,7 @@ while running:
 
 
     ## Drawing ##
-    screen.fill((0,0,0)) 
+    screen.fill((0,0,255)) 
 
     # 3 images --> tick % 3
     # 100% animation speed: tick % 3
