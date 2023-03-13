@@ -151,7 +151,7 @@ while running:
 
 
     ## Drawing ##
-    screen.fill((0,0,255)) 
+    screen.fill((0,0,0)) 
 
     # 3 images --> tick % 3
     # 100% animation speed: tick % 3
